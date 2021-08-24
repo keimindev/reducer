@@ -10,7 +10,7 @@ body{
 }
 
 .form{
-  width: 70%;
+  width: 60%;
   margin: 15px auto;
   background-color: white;
   text-align: center;
@@ -24,7 +24,7 @@ body{
   background-color: rgba(216, 191, 216, 0.3);
   border: 0;
   outline: 0;
-  width: 50%;
+  width: 70%;
   height: 30px;
   line-height: 30px;
   padding-left: 10px;
@@ -33,26 +33,38 @@ body{
 }
 
 button{
-  width: 45px;
-  height: 25px;
+  padding: 5px 10px;
   background-color: rgb(46, 46, 46);
   color: #fff;
   border-radius: 5px;
   border:0;
   outline: 0;
+  cursor: pointer;
 }
 
 .list{
+  width: 60%;
+  margin: 15px auto;
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 5px;
+
 }
 
-.list div{
-  margin: 10px 0;
-}
+.list div{text-align: left; padding-left: 20px;}
+
 
 .modal{
+  margin: 0 auto;
+  width: 180px;
   font-size: 1rem;
   text-align: center;
+  color: darkred;
+  background-color: rgba(255, 255, 255, 0.575);
+  border-radius: 5px;
 }
